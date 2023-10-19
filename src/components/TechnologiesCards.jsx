@@ -4,7 +4,9 @@ import { FaCss3Alt, FaJsSquare, FaNodeJs, FaReact, FaHtml5} from "react-icons/fa
 
 const TechnologiesCards = () => {
   return (
-    <div className=' flex flex-row justify-center flex-wrap items-center gap-10 mx-10'>
+    <div className=' flex flex-row justify-center flex-wrap h-full bg-[#252525]  items-center gap-10 mx-10'>
+
+
      <div className='shadow-[0px_0px_27px_-3px_rgba(0,0,0,1)] hover:bg-[#193f3f] w-[200px] h-[200px] rounded-lg flex flex-col items-center justify-center'>
       <span className='font-bold font-sansBold text-3xl text-center py-2 justify-self-start text-white'>React</span>
        <FaReact size={45} title="React" color={"rgb(30, 144, 255)"} className='animate-jump animate-infinite animate-duration-[1500ms] animate-ease-linear'/>

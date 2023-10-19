@@ -29,7 +29,7 @@ const Contact = () => {
           <a href="mailto:gurdzelm@gmail.com">
             <IoIosMail color="#FFFFFF" title="Email" size={45} className='hover:animate-wiggle-more hover:animate-infinite hover:animate-duration-1000 hover:animate-ease-linear'/>
           </a>
-          <a href="https://api.whatsapp.com/send/?phone=541132732951">
+          <a target="_blank" href="https://api.whatsapp.com/send/?phone=541132732951">
             <IoLogoWhatsapp color="#FFFFFF" title="Whatsapp" size={45} className='hover:animate-wiggle-more hover:animate-infinite hover:animate-duration-1000 hover:animate-ease-linear'/>
           </a>
           

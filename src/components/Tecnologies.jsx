@@ -4,9 +4,9 @@ import TechnologiesCards from './TechnologiesCards';
 
 const Tecnologies = () => {
   return (
-    <div className='pt-20 bg-[#252525] h-screen flex flex-col justify-center items-center'>
+    <div className='py-20 bg-[#252525] 2xl:h-screen xl:h-screen lg:h-full md:h-full sm:h-full  flex flex-col justify-center items-center'>
     <TechnologiesCards/>
-    <span className='text-xl font-bold text-[#99D9D9] font-sansBold p-3'>I'm eager to learn more!</span>
+    
   </div> 
   )
 }

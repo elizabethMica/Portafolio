@@ -9,10 +9,6 @@ import { useState } from "react"
 
 const Landing = () => {
 
-  // text-[#002857] Texto
-  //text-[#0A5587] Texto mas claro
-  //text-[#99D9D9] acciones, botones
-
   const [open, setOpen] = useState(false);
 
   const downloadCv =()=>{
@@ -21,9 +17,9 @@ const Landing = () => {
     
   return (
     <>
-    <div className='flex flex-col justify-center items-center  xl:flex-row h-screen bg-[#252525]'  id='EMG'>
+    <div className='flex flex-col justify-center items-center  xl:flex-row h-full md:h-screen pt-20 pb-20 md:pt-40 md:pb-40 bg-[#252525]'  id='EMG'>
         <div className='sm:mx-2 md:mx-10 my-4 '>
-            <img className=' rounded-full w-[400px] h-[400px] object-cover object-center ' src={foto} alt="picture" />
+            <img className=' rounded-full md:w-[400px] md:h-[400px] object-cover object-center w-[280px] h-[280px]' src={foto} alt="picture" />
         </div>
         <div className='mx-10 md:mx-2'>
           <p className='font-sansRegular font-bold text-xl text-gray-300 text-center justify-center '>Hi! I'm</p>
