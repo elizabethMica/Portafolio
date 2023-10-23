@@ -1,5 +1,5 @@
 import './App.css'
-
+import React from 'react'
 import Landing from './components/Landing'
 import Navbar from './components/Navbar'
 import {Routes, Route} from "react-router-dom"
@@ -14,7 +14,7 @@ function App() {
     <>
       <Navbar path = "/:" />
       <Routes>
-        <Route path="/" element={<Landing/>}/>
+        <Route path="/Portafolio/" element={<Landing/>}/>
         <Route path="/projects" element={<Projects/>} />
         <Route path="/technologies" element={<Tecnologies/>} />
         <Route path="/contact" element={<Contact/>} />

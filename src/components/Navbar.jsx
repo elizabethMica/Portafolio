@@ -19,7 +19,7 @@ const Navbar = () => {
          <div className='md:px-10 py-4 px-7 md:flex justify-between items-center bg-[#252525]'>
                 {/* logo section */}
               <div className='flex cursor-pointer items-center gap-1'>
-                <NavLink to='/'>
+                <NavLink to='/Portafolio/'>
                 <span className='font-bold font-sansBold text-xl text-[#99D9D9]'>Elizabeth M. Gurdzel</span>
                   </NavLink>
               </div>
