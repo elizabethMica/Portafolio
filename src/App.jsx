@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <Navbar/>
+      <Navbar path = "/:" />
       <Routes>
         <Route path="/" element={<Landing/>}/>
         <Route path="/projects" element={<Projects/>} />
