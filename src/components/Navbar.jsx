@@ -6,8 +6,8 @@ import {FaXmark} from 'react-icons/fa6'
 const Navbar = () => {
 
   let Links =[
-    {name: 'About', link: '/Portafolio/about'},
-    {name: 'Projects', link: '/projects'},
+    {name: 'About', link: '/about'},
+    {name: 'Projects', link: '/Portafolio/projects'},
     {name: 'Technologies', link: '/technologies'},
     {name: 'Contact', link: '/contact'},
   ]
