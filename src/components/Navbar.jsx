@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {NavLink} from 'react-router-dom'
+import {NavLink, Link} from 'react-router-dom'
 import {AiOutlineMenu} from 'react-icons/ai'
 import {FaXmark} from 'react-icons/fa6'
 
@@ -11,6 +11,8 @@ const Navbar = () => {
     {name: 'Technologies', link: '/technologies'},
     {name: 'Contact', link: '/contact'},
   ]
+
+  const linkGithub = "https://github.com/elizabethMica";
 
   const [isOpen, setIsOpen] = useState(false)
   return (
@@ -41,6 +43,7 @@ const Navbar = () => {
                   <li key={l.name} className='font-sansRegular my-7 md:my-0 md:ml-8 text-[#99D9D9]' onClick={()=> setIsOpen(!isOpen)}><NavLink className='hover:border-b-2 hover:border-[#99D9D9]' to={l.link}>{l.name}</NavLink></li>
                 ))
               }
+              <li key="GitHub" className='font-sansRegular my-7 md:my-0 md:ml-8 text-[#99D9D9]' onClick={()=> setIsOpen(!isOpen)}><Link target="_blank" className='hover:border-b-2 hover:border-[#99D9D9]' to={linkGithub }>GitHub</Link></li>
             </ul>
  
 

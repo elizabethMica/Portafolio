@@ -22,7 +22,7 @@ const Contact = () => {
     <div className='bg-[#252525]'>
       <div className='h-screen flex flex-col items-center'>
         <h1 className='mt-20 font-sansBold text-4xl text-[#99D9D9] text-center justify-center items-center animate-pulse animate-infinite animate-duration-[1500ms]'>Contact me!</h1>
-        <span className='text-xl font-bold text-[#4e4e4e] font-sansBold text-center p-3'>You can contact me through GitHub and LinkedIn. <br/> You can also send me an Email or a message via Whatsapp</span>
+        <span className='text-xl font-bold text-[#4e4e4e] font-sansBold text-center p-3'>You can contact me through LinkedIn. <br/> Email or message me via Whatsapp</span>
         <div className='flex flex-row justify-evenly items-center my-20 w-full'>
           <Link to={linkGithub} target="_blank" className=''><SiGithub size={40} color="#FFFFFF"  title="GitHub" className='hover:animate-wiggle-more hover:animate-infinite hover:animate-duration-1000 hover:animate-ease-linear'/></Link>
           <Link to={linkLinkedIn} target="_blank" className=''><SiLinkedin size={40} color="#FFFFFF" title="LinkedIn" className='hover:animate-wiggle-more hover:animate-infinite hover:animate-duration-1000 hover:animate-ease-linear'/></Link>

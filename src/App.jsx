@@ -8,11 +8,13 @@ import Tecnologies from './components/Tecnologies'
 import Contact from './components/Contact'
 import About from './components/About'
 
+
 function App() {
 
   return (
     <>
       <Navbar path = "/:" />
+        
       <Routes>
         <Route path="/Portafolio/" element={<Landing/>}/>
         <Route path="/projects" element={<Projects/>} />
