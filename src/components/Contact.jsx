@@ -39,7 +39,7 @@ const Contact = () => {
         <button onClick={downloadCv} className=' rounded-full p-3  text-[#99D9D9] hover:text-black font-sansRegular font-bold mx-2 hover:bg-[#99D9D9] '>Download CV</button>
           {open === true ? (<div className='flex flex-row mt-4'>
             <a href={cvEn} download="Elizabeth Micaela Gurdzel (en)"><button className='text-[#99D9D9]  font-sansRegular font-bold mx-2 hover:text-[#419999]'>English</button></a>
-            <a href={cvSp} download="Elizabeth Micaela Gurdzel"><button className='text-[#99D9D9]  font-sansRegular font-bold mx-2 hover:text-[#419999]'>Español</button></a>
+            <a href={cvSp} download="Elizabeth Micaela Gurdzel"><button className='text-[#99D9D9]  font-sansRegular font-bold mx-2 hover:text-[#419999]'>Spanish</button></a>
           </div>) : null}
         
       </div>
