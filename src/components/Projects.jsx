@@ -18,7 +18,7 @@ const Projects = () => {
 
         <div className='m-4 flex flex-col justify-center sm:w-3/4' >
                <h4 className='font-sansBold text-white text-sm text-center my-2 sm:text-xl'>IBM Hurlingham</h4>
-               <p className='font-sansRegular text-gray-400 text-sm sm:text-lg text-center'> </p>
+               <p className='font-sansRegular text-gray-400 text-sm sm:text-lg text-center'>This web application consists about getting the sermons of the church I go to. You can watch the sermon and share it. You can get to know about what we believe. And if you want to send a message you can fill a form.</p>
                <video autoPlay>
                 <source src={ibmhVideo} type="video/mp4"/>
                 Your browser does not support the video tag.

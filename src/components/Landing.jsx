@@ -23,7 +23,7 @@ const Landing = () => {
         </div>
         <div className='mx-10 md:mx-2'>
           <p className='font-sansRegular font-bold text-xl text-gray-300 text-center justify-center '>Hi! I'm</p>
-            <h1 className='text-5xl text-center text-[#419999] font-sansBold px-1 hover:animate-bounce hover:animate-infinite hover:animate-duration-[1500ms] hover:animate-ease-linear cursor-pointer'>Elizabeth Micaela Gurdzel</h1>
+            <h1 className='text-5xl text-center text-[#419999] font-sansBold px-1 '>Elizabeth Micaela Gurdzel</h1>
             <h5 className='text-gray-300  text-xl text-center font-bold font-sansRegular '>A passionate Frontend Developer</h5>
 
 
