@@ -1,5 +1,5 @@
 import React from 'react'
-import foto from "../assets/foto/mics.jpeg"
+import foto from "../assets/foto/mica crop pic.jpeg"
 import { NavLink, Link} from 'react-router-dom'
 import {FaLocationDot } from "react-icons/fa6";
 import cvEn from "../assets/foto/Elizabeth Micaela Gurdzel cv (en).pdf"
